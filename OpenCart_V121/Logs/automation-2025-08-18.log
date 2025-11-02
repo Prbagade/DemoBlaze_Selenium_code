@@ -1,0 +1,59 @@
+16:36:40:564 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@2c6ee758: 1 ms
+16:52:14:482 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Prafull\eclipse-workspace\OprnCart_V121\src\test\java\TestCases\master.xml"
+16:52:14:806 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prafull\eclipse-workspace\OprnCart_V121\src\test\java\TestCases\master.xml
+
+16:52:18:488 [main] INFO  TestCases.TC001_RegistrationPageTest - *** Starting TC001_RegistrationPageTest ***
+16:52:18:617 [main] INFO  TestCases.TC001_RegistrationPageTest - Clicked on MyAccount link
+16:52:19:183 [main] INFO  TestCases.TC001_RegistrationPageTest - Clicked on Register link
+16:52:19:186 [main] INFO  TestCases.TC001_RegistrationPageTest - Providing customer details...
+16:52:20:531 [main] INFO  TestCases.TC001_RegistrationPageTest - validating expected message..
+16:52:20:573 [main] ERROR TestCases.TC001_RegistrationPageTest - Test Failed...
+16:52:20:573 [main] DEBUG TestCases.TC001_RegistrationPageTest - Debug log..
+17:09:40:857 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Prafull\eclipse-workspace\OprnCart_V121\src\test\java\TestCases\master.xml"
+17:09:41:209 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prafull\eclipse-workspace\OprnCart_V121\src\test\java\TestCases\master.xml
+
+17:09:44:929 [main] INFO  TestCases.TC001_RegistrationPageTest - *** Starting TC001_RegistrationPageTest ***
+17:09:45:041 [main] INFO  TestCases.TC001_RegistrationPageTest - Clicked on MyAccount link
+17:09:45:648 [main] INFO  TestCases.TC001_RegistrationPageTest - Clicked on Register link
+17:09:45:652 [main] INFO  TestCases.TC001_RegistrationPageTest - Providing customer details...
+17:09:47:636 [main] INFO  TestCases.TC001_RegistrationPageTest - validating expected message..
+17:09:47:679 [main] ERROR TestCases.TC001_RegistrationPageTest - Test Failed...
+17:09:47:679 [main] DEBUG TestCases.TC001_RegistrationPageTest - Debug log..
+17:11:45:198 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Prafull\eclipse-workspace\OprnCart_V121\src\test\java\TestCases\master.xml"
+17:11:45:473 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prafull\eclipse-workspace\OprnCart_V121\src\test\java\TestCases\master.xml
+
+17:11:48:695 [main] INFO  TestCases.TC001_RegistrationPageTest - *** Starting TC001_RegistrationPageTest ***
+17:11:48:799 [main] INFO  TestCases.TC001_RegistrationPageTest - Clicked on MyAccount link
+17:11:49:299 [main] INFO  TestCases.TC001_RegistrationPageTest - Clicked on Register link
+17:11:49:301 [main] INFO  TestCases.TC001_RegistrationPageTest - Providing customer details...
+17:11:50:732 [main] INFO  TestCases.TC001_RegistrationPageTest - validating expected message..
+17:11:50:777 [main] ERROR TestCases.TC001_RegistrationPageTest - Test Failed...
+17:11:50:778 [main] DEBUG TestCases.TC001_RegistrationPageTest - Debug log..
+17:14:55:811 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Prafull\eclipse-workspace\OprnCart_V121\src\test\java\TestCases\master.xml"
+17:14:56:109 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prafull\eclipse-workspace\OprnCart_V121\src\test\java\TestCases\master.xml
+
+17:15:06:757 [main] INFO  TestCases.TC001_RegistrationPageTest - *** Starting TC001_RegistrationPageTest ***
+17:15:06:904 [main] INFO  TestCases.TC001_RegistrationPageTest - Clicked on MyAccount link
+17:15:07:674 [main] INFO  TestCases.TC001_RegistrationPageTest - Clicked on Register link
+17:15:07:676 [main] INFO  TestCases.TC001_RegistrationPageTest - Providing customer details...
+17:15:09:215 [main] INFO  TestCases.TC001_RegistrationPageTest - validating expected message..
+17:15:09:238 [main] ERROR TestCases.TC001_RegistrationPageTest - Test Failed...
+17:15:09:238 [main] DEBUG TestCases.TC001_RegistrationPageTest - Debug log..
+17:16:03:698 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Prafull\eclipse-workspace\OprnCart_V121\src\test\java\TestCases\master.xml"
+17:16:03:981 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prafull\eclipse-workspace\OprnCart_V121\src\test\java\TestCases\master.xml
+
+17:16:10:509 [main] INFO  TestCases.TC001_RegistrationPageTest - *** Starting TC001_RegistrationPageTest ***
+17:16:10:658 [main] INFO  TestCases.TC001_RegistrationPageTest - Clicked on MyAccount link
+17:16:11:327 [main] INFO  TestCases.TC001_RegistrationPageTest - Clicked on Register link
+17:16:11:330 [main] INFO  TestCases.TC001_RegistrationPageTest - Providing customer details...
+17:16:12:661 [main] INFO  TestCases.TC001_RegistrationPageTest - validating expected message..
+17:16:13:049 [main] INFO  TestCases.TC001_RegistrationPageTest - *** Finished TC001_RegistrationPageTest ***
+17:16:42:245 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Prafull\eclipse-workspace\OprnCart_V121\src\test\java\TestCases\master.xml"
+17:16:42:536 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prafull\eclipse-workspace\OprnCart_V121\src\test\java\TestCases\master.xml
+

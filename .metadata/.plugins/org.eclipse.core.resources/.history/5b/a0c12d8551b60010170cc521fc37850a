@@ -1,0 +1,65 @@
+package PageObjectModel;
+
+import java.util.List;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.bidi.log.Log;
+import org.openqa.selenium.support.FindBy;
+
+public class HomePage extends BasePage
+{
+	
+	public HomePage(WebDriver driver) 
+	{	
+		super(driver);
+	}
+		
+	@FindBy(xpath ="(//img[@style='margin-right:10px'])[1]") WebElement Logo;
+	@FindBy(xpath ="//a[@id='login2']") WebElement btn_LogIn;
+	@FindBy(xpath ="//a[@id='nava']") WebElement BrandName;
+	@FindBy(xpath = "//div[@class='list-group']//a") List <WebElement> Catergories;
+	@FindBy(xpath ="//div[@class='card h-100']//img") List <WebElement> ProductImages;
+	@FindBy(xpath ="//img[@class=\"d-block img-fluid\"]") List<WebElement> HeroImages;
+	
+	@FindBy(xpath = "//a[text()='Welcome Admin']") WebElement txt_UserProfile;
+	
+	public void LogoValidation() 
+	{
+		System.out.println("Logo is present = "+Logo.isDisplayed());
+		Logo.click();
+	}
+	
+	public void ClickOnLogin() 
+	{
+		btn_LogIn.click();
+	}
+	
+	public void BrandValidate() 
+	{
+		System.out.println("Brand Name = "+BrandName.getText());
+		
+	}
+	
+	public void CategoryCount() 
+	{
+		System.out.println("Category total count = "+Catergories.size());
+	}
+	
+	public void ImagesCount() 
+	{
+		System.out.println("Total Products Images = "+ProductImages.size());
+	}
+	
+	public void HeroImages() 
+	{
+		System.out.println("Total Hero images = "+HeroImages.size());
+	}
+	
+	public void VerifyUserProfile() 
+	{
+		//System.out.println(txt_UserProfile.isDisplayed());
+		System.out.println("User Profile Name = "+txt_UserProfile.getText());
+	}
+
+}

@@ -1,0 +1,30 @@
+package PageObjectModel;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.bidi.log.Log;
+import org.openqa.selenium.support.FindBy;
+
+public class HomePage extends BasePage
+{
+	
+	public HomePage(WebDriver driver) 
+	{	
+		super(driver);
+	}
+		
+	@FindBy(xpath="(//img[@style='margin-right:10px'])[1]") WebElement Logo;
+	@FindBy(xpath="//a[@id='nava']") WebElement BrandName;
+	
+	public void LogoValidation() 
+	{
+		System.out.println("Logo is present = "+Logo.isDisplayed());
+		Logo.click();
+	}
+	
+	public void BrandValidate() 
+	{
+		BrandName.getText();
+	}
+	
+}

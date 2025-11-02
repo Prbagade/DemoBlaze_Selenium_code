@@ -1,0 +1,18 @@
+package TestCases;
+
+import PageObjectModel.HomePage;
+import TestBase.BaseClass;
+
+public class TC002_LoginPage extends BaseClass
+{
+	void LoginFunctionality() 
+	{
+		
+		HomePage hp = new HomePage(driver);
+		
+		
+		
+	}
+	
+}
+

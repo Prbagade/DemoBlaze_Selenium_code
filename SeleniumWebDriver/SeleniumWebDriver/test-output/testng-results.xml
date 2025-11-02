@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-07T12:31:07 IST" name="Suite" finished-at="2025-08-07T12:31:21 IST" duration-ms="13923">
+    <groups>
+    </groups>
+    <test started-at="2025-08-07T12:31:07 IST" name="Test" finished-at="2025-08-07T12:31:21 IST" duration-ms="13923">
+      <class name="Day16.LoginTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Day16.LoginTest@233795b6]" started-at="2025-08-07T12:31:07 IST" name="Setup" finished-at="2025-08-07T12:31:14 IST" duration-ms="7109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TestLogin()[pri:0, instance:Day16.LoginTest@233795b6]" started-at="2025-08-07T12:31:14 IST" name="TestLogin" finished-at="2025-08-07T12:31:19 IST" duration-ms="4423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Day16.LoginTest@233795b6]" started-at="2025-08-07T12:31:19 IST" name="TearDown" finished-at="2025-08-07T12:31:21 IST" duration-ms="2336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Day16.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

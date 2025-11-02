@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ExtentReportManager.java&apos; to &apos;DemoBlaze_Version_001/src/test/java/UtilityClass&apos;&#x0D;&#x0A;- Original project: &apos;OpenCart_FrameWork_Version_2&apos;&#x0D;&#x0A;- Destination element: &apos;DemoBlaze_Version_001/src/test/java/UtilityClass&apos;&#x0D;&#x0A;- Original element: &apos;Utilities.ExtentReportManager.java&apos;" description="Copy compilation unit" destination="=DemoBlaze_Version_001/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;UtilityClass" element1="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;Utilities{ExtentReportManager.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1761910084364" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,33 @@
+package TestCases;
+
+import org.testng.annotations.Test;
+
+import PageObjectModel.HomePage;
+import PageObjectModel.LoginPage;
+import TestBase.BaseClass;
+
+public class TC002_LoginPageTest extends BaseClass
+{
+	@Test
+	void LoginFunctionality() throws InterruptedException 
+	{
+		
+		HomePage hp = new HomePage(driver);
+		hp.ClickOnLogin();
+		
+		LoginPage lp = new LoginPage(driver);
+		lp.EnterUsername("Admin");
+		lp.EnterPassword("admin");
+		lp.LogInButton();
+		
+		Thread.sleep(3000);
+		hp.VerifyUserProfile();
+		
+		
+		
+		
+		
+	}
+	
+}
+

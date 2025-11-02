@@ -1,0 +1,14 @@
+package TestCases;
+
+
+public class TC002_LoginPage 
+{
+	void LoginFunctionality() 
+	{
+		
+		
+		
+	}
+	
+}
+

@@ -1,0 +1,25 @@
+package TestCases;
+
+import PageObjectModel.HomePage;
+import PageObjectModel.LoginPage;
+import TestBase.BaseClass;
+
+public class TC002_LoginPage extends BaseClass
+{
+	void LoginFunctionality() 
+	{
+		
+		HomePage hp = new HomePage(driver);
+		hp.ClickOnLogin();
+		
+		LoginPage lp = new LoginPage(driver);
+		lp.EnterUsername("Praful");
+		lp.EnterPassword("Password");
+		lp.LogInButton();
+		
+		
+		
+	}
+	
+}
+
